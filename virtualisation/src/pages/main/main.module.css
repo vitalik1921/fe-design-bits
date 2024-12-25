@@ -1,0 +1,19 @@
+.container {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 200px);
+    height: calc(100vh - 200px);
+    max-width: calc(100vw - 200px);
+    max-height: calc(100vh - 200px);
+}
+
+.nav {
+
+}
+
+.content {
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: aqua;
+}
